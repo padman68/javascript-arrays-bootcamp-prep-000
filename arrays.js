@@ -38,6 +38,7 @@ function removeElementFromBeginningOfArray(array) {
   return array
 }
 
+// TODO-7
 function destructivelyRemoveElementFromEndOfArray(array) {
 array.pop()
 return array
