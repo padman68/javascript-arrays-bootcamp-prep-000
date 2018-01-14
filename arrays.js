@@ -24,3 +24,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 function accessElementInArray(array) {
   code to be executed
 }
+
+function accessElementInArray(array) {
+  code to be executed
+}
