@@ -13,3 +13,8 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   code to be executed
 }
 
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  code to be executed
+}
+
+
