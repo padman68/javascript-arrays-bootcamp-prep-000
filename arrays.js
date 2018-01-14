@@ -26,11 +26,13 @@ function accessElementInArray(array, index) {
   return array[index]
 }
 
+// TODO-5
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
-  array
+  return array
 }
 
+// TODO-6
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1)
 }
