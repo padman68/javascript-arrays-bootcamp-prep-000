@@ -1,16 +1,16 @@
 // TODO-1
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
-// TODO-2 
+// TODO-2
 function addElementToBeginningOfArray(array, element) {
   array.unshift(element)
 }
  
 function destructivelyAddElementToBeginningOfArray(array, element) {
   [element, ...array]
-  return addElementToBeginningOfArray
 }
 
+// TODO-3
 function addElementToEndOfArray(array, element) {
   return [...array, element]
 }
