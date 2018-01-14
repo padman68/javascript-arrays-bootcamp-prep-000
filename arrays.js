@@ -8,7 +8,6 @@ function addElementToBeginningOfArray(array, element) {
   ['mars', ...chocolateBars]
 }
 
-
 function destructivelyAddElementToBeginningOfArray(array, element) {
   code to be executed
 }
