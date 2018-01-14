@@ -25,6 +25,6 @@ function accessElementInArray(array) {
   code to be executed
 }
 
-function accessElementInArray(array) {
+function destructivelyRemoveElementFromBeginningOfArray(array) {
   code to be executed
 }
