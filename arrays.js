@@ -7,5 +7,7 @@ funtion addElementToBeginningOfArray(array, element) {
 }
 
 
-funtion destructivelyAddElementToBeginningOfArray(array, element)
+funtion destructivelyAddElementToBeginningOfArray(array, element) {
+    code to be executed
+}
 
