@@ -8,18 +8,20 @@ function addElementToBeginningOfArray(array, element) {
  
 function destructivelyAddElementToBeginningOfArray(array, element) {
   [element, ...array]
+  return array
 }
 
 // TODO-3
 function addElementToEndOfArray(array, element) {
-  return [...array, element]
+  array.push(element)
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  array.push(element)
+  [...array, element]
   return array
 }
 
+// TODO-4
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
   array
